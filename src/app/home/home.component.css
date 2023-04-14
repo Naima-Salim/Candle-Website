@@ -1,0 +1,45 @@
+body{
+    background-color: #424246;  
+}
+.header{
+    margin-top: -34.4%;
+    padding-left: 7%;
+    color: #fff;
+    font-size: large;
+    font-weight: 100;
+    font-family: 'Nunito', sans-serif;
+
+}
+.heading{
+    padding-left: 6.6%;
+    padding-top: 4.2%;
+    font-family: 'Playfair Display', serif;
+    color: #FFD895;
+    font-size: 130px;
+    
+}
+.sub_heading{
+    padding-left: 6.6%;
+    padding-top: 6%;
+    width: 50%;
+    line-height: 1.1em;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Nunito', sans-serif;
+
+}
+.button{
+    color: #FFD895;
+    padding-left: 6.6%;
+    margin-top: -6.4%; 
+}
+.play{
+    margin-left: 18.5%;
+    margin-top: -2.6%; 
+}
+.text{
+    margin-left: 21.8%;
+    margin-top: -2.3%; 
+    color: #fff;
+}

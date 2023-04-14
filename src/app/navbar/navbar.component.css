@@ -1,0 +1,39 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body{
+   background-color: #424246;
+   height: 8vh;
+   padding-top: 3%;
+   font-weight: bold;
+   font-family: 'Playfair Display', serif;
+   font-family: 'Quicksand', sans-serif;
+}
+
+.logo{
+    color: #FFD895;
+    font-size: 27px;
+    padding-left: 7%;
+    margin-bottom: -2%;
+}
+
+.navbar {
+    overflow: hidden;
+    margin-right: 31%;
+    margin-bottom: 20%;
+    
+  }
+
+.icons{
+    float: right;
+    padding-right: 6%;
+    
+ }
+  
+.navbar a {
+    float: right;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
