@@ -1,5 +1,6 @@
 body{
-    background-color: #424246;  
+    background-color: #424246; 
+    padding-bottom: 2%; 
 }
 .header{
     margin-top: -34.4%;
@@ -42,4 +43,9 @@ body{
     margin-left: 21.8%;
     margin-top: -2.3%; 
     color: #fff;
+}
+.logos{
+    margin-left: 20%;
+    margin-top: 7%;
+    
 }

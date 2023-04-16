@@ -9,6 +9,11 @@ body{
    font-family: 'Quicksand', sans-serif;
 }
 
+#nav{
+  position: fixed;
+
+}
+
 .logo{
     color: #FFD895;
     font-size: 27px;
