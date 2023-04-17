@@ -8,13 +8,17 @@ import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
+import { CollectionComponent } from './collection/collection.component';
+import { OurWorkComponent } from './our-work/our-work.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    ProductsComponent
+    ProductsComponent,
+    CollectionComponent,
+    OurWorkComponent
   ],
   imports: [
     BrowserModule,
