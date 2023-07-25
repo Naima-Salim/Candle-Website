@@ -1,6 +1,23 @@
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  
 body{
     background-color: #F3EFE3;
-    margin-top: 6%;
+    margin-top: 28%;
     height: 84vh;
 }
 .title{
@@ -19,10 +36,27 @@ body{
     font-weight: 500;
 }
 .image{
-    margin-left: 38%;
-    margin-top: -30%;
+    margin-left: 35%;
+    margin-top: -31%;
 }
 .button{   
     margin-left: 8%;
-    margin-top: -13%; 
+    margin-top: -12%; 
+}
+
+.header{
+    font-size: 18px;
+    margin-top: -16%;
+    color: #2b1e1e;
+    margin-left: 80%;
+}
+
+.sub-header{
+    width: 29%;
+    font-size: 19px;
+    color: #9c9b99;
+    padding-top: 2%;
+    margin-left: 65%;
+    line-height: 1.3em;
+    font-weight: 500;
 }

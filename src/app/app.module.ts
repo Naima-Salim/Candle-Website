@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { CollectionComponent } from './collection/collection.component';
 import { OurWorkComponent } from './our-work/our-work.component';
+import { DifferenceComponent } from './difference/difference.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { OurWorkComponent } from './our-work/our-work.component';
     HomeComponent,
     ProductsComponent,
     CollectionComponent,
-    OurWorkComponent
+    OurWorkComponent,
+    DifferenceComponent
   ],
   imports: [
     BrowserModule,

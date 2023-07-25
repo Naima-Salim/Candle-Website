@@ -1,3 +1,20 @@
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+
 body{
     background-color: #424246; 
     padding-bottom: 2%; 
@@ -16,7 +33,7 @@ body{
     padding-top: 4.2%;
     font-family: 'Playfair Display', serif;
     color: #FFD895;
-    font-size: 130px;
+    font-size: 120px;
     
 }
 .sub_heading{
@@ -24,7 +41,7 @@ body{
     padding-top: 6%;
     width: 50%;
     line-height: 1.1em;
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
     font-weight: 100;
     font-family: 'Nunito', sans-serif;

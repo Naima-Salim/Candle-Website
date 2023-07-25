@@ -1,0 +1,77 @@
+body {
+    padding-top: 3%;
+    margin: 0;
+    min-height: 100vh;
+  }
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  .title {
+    position: relative;
+    margin-left:33%;
+    font-size: x-large;
+    color: hsl(0, 0%, 0%);
+    font-weight: bold;
+    letter-spacing: 7px;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 2s steps(44) 1s 1 normal both,
+      blinkTextCursor 500ms infinite;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 500px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  .sub-title {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 17px;
+    padding-top: 1%;
+    color: gray;
+
+  }
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateY(50%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+
+  
