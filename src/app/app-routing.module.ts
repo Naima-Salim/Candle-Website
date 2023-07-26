@@ -7,6 +7,7 @@ import { ProductsComponent } from './products/products.component';
 import { CollectionComponent } from './collection/collection.component';
 import { OurWorkComponent } from './our-work/our-work.component';
 import { DifferenceComponent } from './difference/difference.component';
+import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'collection', component: CollectionComponent},
   {path: 'our-work', component: OurWorkComponent},
   {path: 'difference', component: DifferenceComponent},
+  {path: 'footer', component: FooterComponent},
 ];
 
 @NgModule({
@@ -23,4 +25,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents=[NavbarComponent, HomeComponent, ProductsComponent, CollectionComponent, OurWorkComponent, DifferenceComponent]
+export const routingComponents=[NavbarComponent, HomeComponent, ProductsComponent, CollectionComponent, OurWorkComponent, DifferenceComponent, FooterComponent]

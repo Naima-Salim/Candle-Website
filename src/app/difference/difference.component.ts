@@ -10,8 +10,10 @@ export class DifferenceComponent {
   sub_title = 'Of an affixed civilly moments promise explain fertile in, Assurance advantage belonging happiness departure so of now improving and one sincerity intention allowance commanded not';
   Heading = 'Easy process';
   sub_head = 'Of an affixed civilly moments promise explain fertile in, Assurance advantage belonging happiness departure so of now improving and one sincerity intention allowance commanded not';
-
-
+  Heading_2 = 'Fast Delivery';
+  sub_head_2 = 'Of an affixed civilly moments promise explain fertile in, Assurance advantage belonging happiness departure so of now improving and one sincerity intention allowance commanded not';
+  Heading_3 = 'COD Service';
+  sub_head_3 = 'Of an affixed civilly moments promise explain fertile in, Assurance advantage belonging happiness departure so of now improving and one sincerity intention allowance commanded not';
 }
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");

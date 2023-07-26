@@ -11,6 +11,7 @@ import { ProductsComponent } from './products/products.component';
 import { CollectionComponent } from './collection/collection.component';
 import { OurWorkComponent } from './our-work/our-work.component';
 import { DifferenceComponent } from './difference/difference.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DifferenceComponent } from './difference/difference.component';
     ProductsComponent,
     CollectionComponent,
     OurWorkComponent,
-    DifferenceComponent
+    DifferenceComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
